@@ -236,20 +236,25 @@ body header {
     .article {
         display: block;
         width: 90%;
-        margin: 5vw auto 0;
+        margin: 5vw auto 10vh;
 
     }
 
     .article:nth-child(even) {
-        margin: 5vw auto 0;
+        margin: 5vw auto 10vh;
     }
 
     .article .text h1 {
         text-align: center;
+        font-size: 28px;
     }
 
     .article:nth-child(even) .text h1 {
         text-align: center;
+    }
+
+    .article .text p {
+        font-size: 18px;
     }
 
     .article .img {
@@ -309,7 +314,7 @@ body header {
 
 @media (orientation: portrait) and (max-width: 375px) {
     .contact {
-        width: 70%;
+        width: 85%;
     }
 }
 
