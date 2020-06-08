@@ -56,7 +56,7 @@ body header {
     }
 }
 
-@media (orientation: portrait) and (max-width: 375px) {
+@media (orientation: portrait) and (max-width: 420px) {
     .bg {
         flex-direction: column;
         align-items: center;
@@ -134,7 +134,7 @@ body header {
     }
 }
 
-@media (orientation: portrait) and (max-width: 375px) {
+@media (orientation: portrait) and (max-width: 420px) {
     .menu {
         /* width: 90%; */
         flex-wrap: wrap;
@@ -232,7 +232,7 @@ body header {
     }
 }
 
-@media (orientation: portrait) and (max-width: 375px) {
+@media (orientation: portrait) and (max-width: 420px) {
     .article {
         display: block;
         width: 90%;
@@ -283,7 +283,7 @@ body header {
     width: 100%;
 }
 
-@media (orientation: portrait) and (max-width: 375px) {
+@media (orientation: portrait) and (max-width: 420px) {
     .gallery {
         width: 90%;
         margin-top: 100px;
@@ -312,7 +312,7 @@ body header {
     border-radius: 50%;
 }
 
-@media (orientation: portrait) and (max-width: 375px) {
+@media (orientation: portrait) and (max-width: 420px) {
     .contact {
         width: 85%;
     }
